@@ -1,37 +1,59 @@
-# my-portfolio
-Improve git skills 
-# Foobar
+# Kenan Alim | Developer Portfolio
 
-Foobar is a Python library for dealing with word pluralization.
+Welcome to my personal software developer portfolio.
+
+This repository contains my React portfolio project,
+showcasing my development journey, technical skills,
+professional experience, and software projects.
+
+## Technologies
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Node.js and npm
+
+## Project Structure
+
+The React application is located in the `app` directory.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Clone the repository:
 
-bash
-pip install foobar
+```bash
+git clone https://github.com/Kenan-7/my-portfolio.git
+```
 
-## Usage
+Navigate to the application directory:
 
-python
-import foobar
+```bash
+cd my-portfolio/app
+```
 
-# returns 'words'
-foobar.pluralize('word')
+Install dependencies:
 
-# returns 'geese'
-foobar.pluralize('goose')
+```bash
+npm install
+```
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+Start the development server:
 
-## Contributing
+```bash
+npm start
+```
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+## Build
 
-Please make sure to update tests as appropriate.
+Create a production build:
 
-## License
+```bash
+npm run build
+```
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## Author
+
+Kenan Alim
+
+GitHub: Kenan-7
